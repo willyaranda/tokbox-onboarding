@@ -27,6 +27,7 @@ opentok.createSession((err, session) => {
 
 app.engine('handlebars', handlebars({defaultLayout: 'main'}))
 app.set('view engine', 'handlebars')
+app.use(express.static('assets'))
 
 const startListening = () => {
   app.listen(LISTEN_PORT, () => {
