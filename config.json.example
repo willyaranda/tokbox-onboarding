@@ -1,0 +1,9 @@
+{
+	"tokens":  {
+		"apiKey": "abcd",
+		"apiSecret": "abcd3"
+	},
+	"server": {
+		"port": 3000
+	}
+}
